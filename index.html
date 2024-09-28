@@ -1,1 +1,42 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara Elqaisi - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Sara Elqaisi</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#selfAssessment">Self Assessment</a></li>
+                <li><a href="#codeReview">Code Review</a></li>
+                <li><a href="#sde">Software Design &amp; Engineer</a></li>
+                <li><a href="#ads">Algorithms &amp; Data Structures</a></li>
+                <li><a href="#db">Databases</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Sara Elqaisi</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#selfAssessment" onclick="toggleMenu()">Self Assessment</a></li>
+                <li><a href="#codeReview" onclick="toggleMenu()">Code Review</a></li>
+                <li><a href="#sde" onclick="toggleMenu()">Software D&amp;E</a></li>
+                <li><a href="#ads" onclick="toggleMenu()">Algorithms &amp; DS</a></li>
+                <li><a href="#db" onclick="toggleMenu()">Databases</a></li>
+            </div>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>
