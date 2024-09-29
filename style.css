@@ -248,3 +248,15 @@ section {
 #backToTop:hover {
     background-color: #f4a824;
 }
+
+
+/******** Category 1 Section *********/
+#sde {
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+.c1_text{
+    color: grey;
+    margin-top: 50px;
+}
