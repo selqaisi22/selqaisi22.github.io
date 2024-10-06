@@ -22,3 +22,42 @@ window.onscroll = function() {
         backToTopButton.style.display = 'none';
     }
 };
+
+
+// Swiper initialization code
+document.addEventListener('DOMContentLoaded', function () {
+    var swiper1 = new Swiper('.swiper-container', {
+        loop: true, // Enable continuous loop mode
+        autoplay: {
+            delay: 3000, // Delay between transitions (in milliseconds)
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        // Enable grab cursor when hovering over the swiper
+        grabCursor: true,
+    });
+
+    var swiper2 = new Swiper('.swiper-container2', {
+        loop: true, // Enable continuous loop mode
+        autoplay: {
+            delay: 3000, // Delay between transitions (in milliseconds)
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination2',
+            clickable: true,
+        },
+        grabCursor: true,
+    });
+});

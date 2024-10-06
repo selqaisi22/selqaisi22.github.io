@@ -6,6 +6,7 @@
     <title>Sara Elqaisi - Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <body>
     <nav id="desktop-nav">
@@ -84,7 +85,35 @@
             <h1 class="title">Software Design &amp; Engineering</h1>
         </div>
         <div class="c1_container">
-            <p class="c1_text">The artifact used is an Inventory app developed using Android Studio, Java, and SQLite. It was created in the CS 360 Mobile Architecture and Programming class. The purpose of the app is to allow users to store products and their respective quantities in a database to manage inventory. I am converting the app into a Biological Sample Inventory System. This app will store biological samples in a database and include extra features such as a search function, data visualization, and exporting data into files. This artifact was chosen because although the final project was completed in the class, there was room for improvement. An inventory app can be modified for many purposes, and in the field of bioinformatics, gathering samples in a secure and efficient manner is useful for researchers and other scientists. <br><br>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./assets/welcomePage.png" alt="welcome page">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/loginPage.png" alt="login page">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/regPage1.png" alt="register page">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/regPage2.png" alt="role dropdown">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/sampleList.png" alt="sample list">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/folderStructure.png" alt="folder structure">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/function_recyclerView.png" alt="recycler view helper files ">
+                    </div>
+                </div>
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <p class="narrative_text">The artifact used is an Inventory app developed using Android Studio, Java, and SQLite. It was created in the CS 360 Mobile Architecture and Programming class. The purpose of the app is to allow users to store products and their respective quantities in a database to manage inventory. I am converting the app into a Biological Sample Inventory System. This app will store biological samples in a database and include extra features such as a search function, data visualization, and exporting data into files. This artifact was chosen because although the final project was completed in the class, there was room for improvement. An inventory app can be modified for many purposes, and in the field of bioinformatics, gathering samples in a secure and efficient manner is useful for researchers and other scientists. <br><br>
             The architecture seen in the enhancement is the Model-View-ViewModel (MVVM) pattern, which improves the application's design by separating the UI from the program's logic. The folder structure was reorganized to improve the organization of files, including the activities, as well as the adapter, utils, and viewholder packages, which are part of the RecyclerView list implementation. The addition of search functionality and allowing users to select items from the list is done through the RecyclerView structure. Other features added to enhance the application include data visualization via a pie chart and the ability to export data in CSV format. <br><br>
             The enhancements completed thus far cover all course outcomes. Key areas addressed include database implementation, computational solutions through the use of different algorithms and tools, and structural adjustments, such as using RecyclerView and LiveData, which enhance the design and resolve technical issues. Additionally, algorithms have been improved for gathering and storing data, such as filtering and searching for specific samples. Security and role-based access are implemented through proper registration mechanisms. Adding a search feature will be very useful for users when looking for a sample in a large dataset. The export to CSV feature could also be beneficial for research purposes in the bioinformatics field. Modifications to the app's build and dependencies were necessary to incorporate pie chart visualization into the application. <br><br>
             Overall, the process has been educational, informative, and somewhat time-consuming. Some new skills that had to be researched included exporting to CSV files, search implementation, and importing a new dependency to visualize data with a pie chart. In addition to these new techniques, new components were added to the application, such as a dropdown menu, a menu bar, and a calendar selection. Many new features and skills were incorporated, and I found that much more research was needed than I had originally anticipated. Time was also spent debugging some newly added features, which was challenging. For example, the search feature was initially difficult because I wanted users to be able to search by sample name, type, or species. This required adjusting the query for filtering to include all fields and iterating over all data for samples that match the search criteria into a LiveData array. Achieving the desired functionality involved research and multiple iterations; however, the functionality can now be viewed in the Database Helper. Additionally, warnings from the original artifact were addressed, and the file structure was adjusted to further enhance the application.
@@ -96,6 +125,54 @@
             <p class="title_small">Category Two</p>
             <h1 class="title">Algorithms &amp; Data Structures</h1>
         </div>
+        <div class="c2_container">
+            <div class="swiper-container2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./assets/sampleList.png" alt="sample list">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/menuOptions.png" alt="menu options">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/search1.png" alt="search fields">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/search2.png" alt="search fields">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/detailsPage.png" alt="details page">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/pieChart.png" alt="pie chart page">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/function_loadSamples.png" alt="load samples function">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/function_searchSamples.png" alt="search samples function">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/function_getSample.png" alt="get sample function">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/function_typeCounts.png" alt="get sample type counts function">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/function_recyclerView.png" alt="recycler view helper files ">
+                    </div>
+                </div>
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
+                <div class="swiper-pagination2"></div>
+            </div>
+            <p class="narrative_text">
+                The artifact used for category two is a project from class CS 360 Mobile Architect and Programming. It is an inventory application to store products for tracking purposes and it utilizes Android Studio, Java and SQLite. I converted this mobile app into a Biological Samples Inventory System. This app will store biological samples into a database and offer different features to enhance user experience and aid in analysis. This artifact has been chosen due to the quality of work previously submitted and room for improvement. The goal of tracking and organizing data could be applied to many different fields and the project will aim for the bioinformatics field. Certain skills could be displayed for this category such as efficient search algorithm and choice of data structure to create the list of items. Other features such as a pie chart have also been completed which required an outside library and algorithms to properly load data into the chart. <br><br>
+                The DatabaseHelper displays the core functionality of the app in terms of displaying and offering functionality related to samples. A few new methods that have been added to accomplish these enhancements were the loadSamples() method to ensure the list of samples is visible, searchSamples() function will return a LiveData Array List of samples, getSampleByID() which aids the selection of a sample to view more details, and getSamplesTypeCounts() which utilizes a Map to store the type and count of samples for the pie chart. The use of DiffUtil and ViewHolder had to be included since RecyclerView was chosen to contain the list of items, and these files ensure the list of samples is updated appropriately and the individual sample item is clickable. The previous choice of structure was the GridView layout which displayed the products from the inventory in a table like structure, however this enhancement makes the list much more user friendly and organized, with added features for better user experience. <br><br>
+                The outcomes that this enhancement aligns with is using algorithmic principles and utilizing different techniques &amp; tools to display computer solutions. The addition of a search feature, clickable samples to view details, and a pie chart for data analysis have all been new additions to the original artifact. The design has been enhanced, and through the use of algorithms and different structures, the application is more useful for the user for the purpose of tracking samples in an app. <br><br>
+                This enhancement was educational and required trial and error to settle with structure decisions and ensure the algorithms are accomplishing the expected requirement. During this enhancement there were a few challenges that I faced. There were different library options for displaying data through a pie chart. I had to experiment to find which library is most useful and easy to integrate into the app, and the choice I went with is MPAndroidChart. Once I created the function to gather sample types and allow the activity to have access to this data, the issue I found was the use of the LiveData for the pie chart. After going over documentation I understood that this prevented the pie chart from properly loading data into the structure. I was able to adjust the pie chart activity &amp; methods, while also adding customizations to display the data in the chart accordingly. 
+            </p>
+        </div>
     </section>
     <section id="db">
         <div class="section_header">
@@ -104,6 +181,7 @@
         </div>
     </section>
     <button id="backToTop" onclick="scrollToTop()">Back to Top</button>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
