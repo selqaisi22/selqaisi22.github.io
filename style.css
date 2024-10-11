@@ -276,6 +276,13 @@ section {
     margin: 0 auto 20px auto;
 }
 
+.swiper-container3 {
+    width: 80%;
+    max-width: 1000px; 
+    height: auto;
+    margin: 0 auto 20px auto;
+}
+
 .swiper-slide {
     display: flex; 
     justify-content: center;
@@ -302,4 +309,23 @@ section {
 .swiper-pagination2 {
     bottom: 10px;
     text-align: center;
+}
+
+.swiper-pagination3 {
+    bottom: 10px;
+    text-align: center;
+}
+
+/******** Category 2 Section *********/
+#ads {
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+/******** Category 3 Section *********/
+#db{
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
 }

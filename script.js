@@ -60,4 +60,22 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         grabCursor: true,
     });
+
+    var swiper1 = new Swiper('.swiper-container3', {
+        loop: true, // Enable continuous loop mode
+        autoplay: {
+            delay: 3000, // Delay between transitions (in milliseconds)
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination3',
+            clickable: true,
+        },
+        // Enable grab cursor when hovering over the swiper
+        grabCursor: true,
+    });
 });
