@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
         grabCursor: true,
     });
 
-    var swiper1 = new Swiper('.swiper-container3', {
+    var swiper3 = new Swiper('.swiper-container3', {
         loop: true, // Enable continuous loop mode
         autoplay: {
             delay: 3000, // Delay between transitions (in milliseconds)
